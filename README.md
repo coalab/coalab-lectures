@@ -1,1 +1,51 @@
 # coalab-lectures
+# COALAB Lectures 🎥
+
+**COALAB 평생교육원 강의 영상 사이트 (테스트 버전)**  
+본 프로젝트는 GitHub Pages 기반으로 구축된 강의 영상 플레이어 예제입니다.  
+YouTube 및 MP4 영상을 리스트 형태로 관리하고, 좌측 메뉴에서 선택 시 우측에서 재생됩니다.
+
+---
+
+## 📁 프로젝트 구조
+
+
+├── index.html # 메인 강의 페이지
+├── assets/
+│ ├── style.css # 스타일 시트 (레이아웃 및 테마)
+│ └── script.js # 플레이어 스크립트 (YouTube/MP4 재생 로직)
+└── README.md
+
+
+---
+
+## 🚀 사용 방법
+
+1. **GitHub Pages 설정**
+   - 메뉴: `Settings → Pages`
+   - Source: **Branch → main**, **Folder → /(root)** 선택 후 `Save`
+   - 잠시 후 접속 주소 예시:
+     ```
+     https://coalab.github.io/coalab-lectures/
+     ```
+
+2. **강의 영상 추가**
+   - `index.html` 안의 `<ul id="playlist">` 영역에 다음 형식으로 항목을 추가합니다:
+     ```html
+     <li class="item"
+         data-type="youtube"
+         data-src="https://www.youtube.com/watch?v=VIDEO_ID"
+         data-title="강의 제목">
+       <span>강의 제목</span><span class="muted">YouTube</span>
+     </li>
+     ```
+
+3. **변경 후 커밋 및 푸시**
+   ```bash
+   git add .
+   git commit -m "update playlist"
+   git push
+
+---
+
+
