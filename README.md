@@ -22,11 +22,13 @@ YouTube 및 MP4 영상을 리스트 형태로 관리하고, 좌측 메뉴에서 
 ## 🚀 사용 방법
 
 1. **GitHub Pages 설정**
-   - 메뉴: `Settings → Pages`
-   - Source: **Branch → main**, **Folder → /(root)** 선택 후 `Save`
-   - 잠시 후 접속 주소 예시:
-     ```
-     https://coalab.github.io/coalab-lectures/
+   - 메뉴 경로: `Settings → Pages`
+   - **Branch:** `main`  
+   - **Folder:** `/ (root)`  
+   - 설정 후 `Save` 버튼 클릭
+   - 약 1~3분 후 아래 주소에서 실행 확인:
+     👉 [https://coalab.github.io/coalab-lectures/](https://coalab.github.io/coalab-lectures/)
+
      ```
 
 2. **강의 영상 추가**
