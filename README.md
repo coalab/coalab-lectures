@@ -10,11 +10,6 @@ YouTube 및 MP4 영상을 리스트 형태로 관리하고, 좌측 메뉴에서 
 ## 📁 프로젝트 구조
 
 
-├── index.html # 메인 강의 페이지
-├── assets/
-│ ├── style.css # 스타일 시트 (레이아웃 및 테마)
-│ └── script.js # 플레이어 스크립트 (YouTube/MP4 재생 로직)
-└── README.md
 
 <img width="520" height="148" alt="image" src="https://github.com/user-attachments/assets/607aba0a-cfa2-4105-b2c7-76b72fd3d4cb" />
 
